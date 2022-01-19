@@ -1,0 +1,66 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;300;400;700;900&display=swap');
+/* common css */
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+/* header part */
+header {
+  background-color: #28293e;
+  padding-top: 28px;
+}
+.navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-brand-name img {
+  width: 152px;
+  height: 48px;
+}
+nav {
+  width: 515px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+.contact-btn {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 18px 33.54px 16px 34.46px;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  box-sizing: border-box;
+  border-radius: 6px;
+  background-color: transparent;
+}
