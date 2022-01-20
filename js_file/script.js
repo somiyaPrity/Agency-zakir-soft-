@@ -15,7 +15,7 @@ toggleBtn.addEventListener('click', () => {
 
 // =============marketing section 1=========
 // get data
-fetch('/js_file/marketing-data.json')
+fetch('./js_file/marketing-data.json')
   .then((res) => res.json())
   .then((data) => marketingUI(data))
 
