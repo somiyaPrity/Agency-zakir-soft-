@@ -85,6 +85,7 @@ header {
   padding: 17px 16px;
   display: none;
 }
+
 /* banner */
 .banner-content {
   width: 50%;
@@ -128,6 +129,8 @@ header {
     flex-direction: column;
     display: none;
     justify-content: center;
+    opacity: 0;
+    transition: all 1s ease-in-out;
   }
   .header-menu {
     width: 115px;
