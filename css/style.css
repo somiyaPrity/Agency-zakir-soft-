@@ -451,3 +451,33 @@ nav ul li a {
 }
 
 /* ==========newsletter part========= */
+.newsletter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 67px 0;
+  border-top: 1px solid #f3d1bf;
+  border-bottom: 1px solid #f3d1bf;
+}
+.newsletter-heading h3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+  text-transform: capitalize;
+}
+.email-input {
+  width: 370px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #f3d1bf;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+  padding: 9px 0 7px 16px;
+  margin-right: 30px;
+}
