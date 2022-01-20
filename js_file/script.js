@@ -13,71 +13,13 @@ toggleBtn.addEventListener('click', () => {
   clicks++
 })
 
-// const data = [
-//   {
-//     id: 0,
-//     img: 'img1.png',
-//     name: 'sports',
-//     description: 'Performance marketing agencies specialize',
-//     date: '7 Dec, 2021',
-//   },
-//   {
-//     id: 1,
-//     img: 'img2.png',
-//     name: 'design',
-//     description: 'Digital marketing channels',
-//     date: '23 Nov, 2021',
-//   },
-//   {
-//     id: 2,
-//     img: 'img3.png',
-//     name: 'stories',
-//     description: 'Agency is a business you hire to outsource',
-//     date: '5 Nov, 2021',
-//   },
-//   {
-//     id: 3,
-//     img: 'img4.png',
-//     name: 'design',
-//     description: 'Outsource your digital marketing efforts',
-//     date: '29 Oct, 2021',
-//   },
-//   {
-//     id: 4,
-//     img: 'img5.png',
-//     name: 'marketing',
-//     description: 'Your business with a variety of digital',
-//     date: '21 Oct, 2021',
-//   },
-//   {
-//     id: 5,
-//     img: 'img6.png',
-//     name: 'marketing',
-//     description: 'Analytics to track and report on results',
-//     date: '17 Nov, 2021',
-//   },
-//   {
-//     id: 6,
-//     img: 'img7.png',
-//     name: 'branding',
-//     description: 'The most well known performance',
-//     date: '12 Oct, 2021',
-//   },
-//   {
-//     id: 7,
-//     img: 'img8.png',
-//     name: 'marketing',
-//     description: 'Marketing channels native advertising',
-//     date: '9 Oct, 2021',
-//   },
-// ]
-
 // =============marketing section 1=========
-
+// get data
 fetch('/js_file/marketing-data.json')
   .then((res) => res.json())
   .then((data) => marketingUI(data))
 
+// marketing section ui
 function marketingUI(items) {
   // marketing section 1
   const section1Div = document.querySelector('.marketing-section-1')
