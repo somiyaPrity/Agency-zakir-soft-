@@ -17,8 +17,13 @@ body {
 a {
   text-decoration: none;
 }
-
-/*==================header part=========== */
+main,
+footer {
+  background-color: #fdf0e9;
+}
+/*===========================
+        header part
+============================== */
 header {
   background-color: #28293e;
   padding: 28px 0 66px 0;
@@ -40,7 +45,7 @@ header {
 }
 nav {
   width: 515px;
-  margin: 0 129px;
+  margin: 0 132px;
 }
 nav ul {
   list-style: none;
@@ -180,4 +185,79 @@ nav ul li a {
     width: 287px;
     margin: 0 13px;
   }
+}
+
+/*===========================
+        main body part
+============================== */
+/* marketing section 1 */
+.marketing-section-1 {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+.section1-content {
+  margin-top: 80px;
+}
+.section1-img {
+  width: 509px;
+  height: 336px;
+  overflow: hidden;
+}
+.section-text {
+  width: 538px;
+}
+.section-name {
+  text-transform: capitalize;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #391400;
+  margin: 26px 0 19px 0;
+}
+.section-description {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  color: #391400;
+  margin-bottom: 12px;
+}
+.date {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(57, 20, 0, 0.64);
+}
+.line-div {
+  margin: 68px 0 79px 0;
+}
+.line {
+  width: 1170px;
+  height: 1px;
+  background: #f3d1bf;
+
+  margin: 0 auto;
+}
+/* marketing section 2 */
+.marketing-section-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 68px 30px;
+}
+.section2-img {
+  width: 340px;
+  height: 224px;
+}
+.section2-text {
+  width: 338px;
+}
+.section2-description {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #391400;
 }
