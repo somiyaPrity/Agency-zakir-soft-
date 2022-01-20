@@ -148,7 +148,7 @@ nav ul li a {
     width: 329px;
   } */
 }
-@media (min-width: 481px) and (max-width: 768) {
+@media (min-width: 481px) and (max-width: 767) {
   /* nav part */
   .navbar-section {
     display: block;
@@ -180,17 +180,17 @@ nav ul li a {
     font-size: 16px;
   }
 }
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1279px) {
   nav {
     width: 287px;
     margin: 0 13px;
   }
 }
 
-/*===========================
+/*==========================================
         main body part
-============================== */
-/* marketing section 1 */
+============================================= */
+/*====== marketing section 1======= */
 .marketing-section-1 {
   display: flex;
   justify-content: space-between;
@@ -240,7 +240,7 @@ nav ul li a {
 
   margin: 0 auto;
 }
-/* marketing section 2 */
+/*========= marketing section 2 ==========*/
 .marketing-section-2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -271,7 +271,7 @@ nav ul li a {
   align-items: center;
   justify-content: center;
 }
-.common-btn-div button {
+.common-btn {
   font-style: normal;
   font-weight: 900;
   font-size: 14px;
@@ -344,7 +344,7 @@ nav ul li a {
     width: 183px;
   }
 }
-@media (min-width: 481px) and (max-width: 768) {
+@media (min-width: 481px) and (max-width: 767) {
   .marketing-section-1 {
     flex-direction: column;
     align-items: center;
@@ -399,5 +399,55 @@ nav ul li a {
     width: 183px;
   }
 }
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1279px) {
+  .section1-content {
+    margin-top: 52px;
+  }
+  .section1-img {
+    width: 257px;
+    height: 224px;
+  }
+  .section-text {
+    width: 257px;
+  }
+  .section-name {
+    margin-bottom: 0;
+  }
+  .section-description {
+    font-size: 24px;
+    margin: 15px 0;
+    line-height: 32px;
+  }
+  .date {
+    line-height: 0;
+  }
+
+  .line {
+    width: 693px;
+  }
+  /* section 2 */
+  .marketing-section-2 {
+    margin-top: 52px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 52px;
+    column-gap: 30px;
+    justify-items: center;
+  }
+  .section2-img {
+    width: 257px;
+    height: 224px;
+  }
+  .section2-text {
+    width: 257px;
+  }
+  .section2-description {
+    font-size: 24px;
+    margin: 15px 0;
+    line-height: 32px;
+  }
+  .common-btn-div {
+    width: 183px;
+  }
 }
+
+/* ==========newsletter part========= */
