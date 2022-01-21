@@ -67,10 +67,11 @@ function marketingUI(items) {
 marketingUI()
 
 // ====newsletter email validation=====
-const emailInput = document.querySelector('.email-input').value
-const validateBtn = document.querySelector('#subscribe-btn')
-validateBtn.addEventListener('click', () => {
-  console.log('cliked')
+
+document.getElementById('submit-btn').addEventListener('click', () => {
+  // e.preventDefault()
+  const emailInput = document.getElementById('email').value
+  console.log(emailInput)
   // let reg =
   //   /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
   // console.log(reg.test(String(emailInput).toLowerCase()))
