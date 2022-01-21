@@ -1,6 +1,6 @@
 // header part
 const navBar = document.querySelector('.toggle-menu')
-const toggleBtn = document.querySelector('.toggle-show')
+const toggleBtn = document.querySelector('.toggle-show-hide')
 
 // toggle button
 let clicks = 1

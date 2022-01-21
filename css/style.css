@@ -174,9 +174,7 @@ header {
   .header-menu ul {
     flex-direction: column;
   }
-  /* .toggle-menu {
-    left: 19%;
-  } */
+
   /* banner part */
   .banner-tagline {
     font-size: 36px;
